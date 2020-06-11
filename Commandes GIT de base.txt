@@ -1,0 +1,63 @@
+Commandes GIT de base
+
+Config Environnement
+
+git config --global user.name "Vincent Delannoy"
+git config --global user.email "delannoyvincent1052@gmail.com"
+
+Création de répertoire / Aller dans le répertoire
+
+git init
+
+Créer les fichiers et les ajouter à la répo
+
+git add FILENAME
+
+Commit le fichiers
+
+git commit -m "COMMENTAIRE"
+
+Création d'une branche (la branche par défaut à la création est la branche master)
+
+git branche NOM_DE_BRANCHE
+
+Visualisation des branches
+
+git branch
+
+Changer de branche 
+
+git checkout NOM_DE_BRANCHE
+
+ATTENTION : Quand on change de branche, il faut ajouter les fichiers à la nouvelle branche => git add FILENAME + git commit -m "COMMENTAIRE"
+
+Fusionner le contenu de 2 branches
+
+git merge NOM_DE_BRANCHE (a executer depuis la branche ou l'on veut que le merge se fasse)
+
+Obtenir un log des actions :
+
+git log
+
+Supprimer une branche
+
+git branch -d NOM_DE_BRANCHE
+
+Se connecter à une repo distante (sur GITHUB par ex)
+
+git remote add origin https://github.com/vincentdelannoy1052/NOM_REPO.git
+
+Lister la repo distante
+
+git remote
+
+Synchro entre repo git locale et distance
+
+git push master origin
+
+Synchro pour synchro en repo distance et locale
+
+git pull origin master
+
+
+
