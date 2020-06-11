@@ -45,7 +45,7 @@ git branch -d NOM_DE_BRANCHE
 
 Se connecter à une repo distante (sur GITHUB par ex)
 
-git remote add origin https://github.com/vincentdelannoy1052/NOM_REPO.git
+git remote add origin https://github.com/delannoyvincent1052/NOM_REPO.git
 
 Lister la repo distante
 
